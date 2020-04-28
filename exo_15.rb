@@ -5,8 +5,11 @@ i = birth_year
 
 number = 2020 - birth_year + 1
 
-number.times do 
-  puts " #{i} "
+number.times do |n|
+  puts "En #{i} tu avais #{n} ans"
   i = i +1
+
 end
+
+
 
